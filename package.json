@@ -1,0 +1,19 @@
+{
+    "name": "pos-app",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "next": "^15.1.6",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "22.12.0",
+        "@types/react": "19.0.8",
+        "typescript": "^4.5.0"
+    }
+}
