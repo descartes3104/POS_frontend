@@ -9,8 +9,8 @@ const POSApp = () => {
   const { purchaseList, totalAmount, handleAddProduct, handlePurchase } = usePurchase();
 
   return (
-    <div>
-      <ProductInput 
+    <div>inoue
+      {/* <ProductInput 
         productCode={productCode} 
         setProductCode={setProductCode} 
         handleLoadProduct={handleLoadProduct} 
@@ -21,7 +21,7 @@ const POSApp = () => {
       <PurchaseList purchaseList={purchaseList} />
       <div>
         <button onClick={handlePurchase}>購入ボタン</button>
-      </div>
+      </div> */}
     </div>
   );
 };
