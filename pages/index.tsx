@@ -9,7 +9,7 @@ const POSApp = () => {
   const { purchaseList, totalAmount, handleAddProduct, handlePurchase } = usePurchase();
 
   return (
-    <div>inoue
+    <div>
       <ProductInput 
         productCode={productCode} 
         setProductCode={setProductCode} 
