@@ -5,17 +5,17 @@ import ProductInput from '../components/ProductInput';
 import PurchaseList from '../components/PurchaseList';
 
 const POSApp = () => {
-  const { productCode, setProductCode, productName, productPrice, handleLoadProduct } = useProduct();
+  const { PRD_CODE, setProductCode, PRD_NAME, PRD_PRICE, handleLoadProduct } = useProduct();
   const { purchaseList, totalAmount, handleAddProduct, handlePurchase } = usePurchase();
 
   return (
     <div>
-      <ProductInput 
-        productCode={productCode} 
-        setProductCode={setProductCode} 
-        handleLoadProduct={handleLoadProduct} 
-        productName={productName} 
-        productPrice={productPrice} 
+      <ProductInput
+        productCode={PRD_CODE}
+        setProductCode={setProductCode}
+        handleLoadProduct={handleLoadProduct}
+        productName={PRD_NAME}
+        productPrice={PRD_PRICE}
         handleAddProduct={handleAddProduct}
       />
       <PurchaseList purchaseList={purchaseList} />
